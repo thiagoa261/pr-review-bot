@@ -1,0 +1,23 @@
+{
+  "name": "pr-review-bot",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "tsx": "^4.19.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@octokit/auth-app": "^7.2.1",
+    "@octokit/core": "^6.1.5",
+    "@octokit/webhooks": "^13.8.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^4.95.0"
+  }
+}
